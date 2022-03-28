@@ -11,10 +11,10 @@ async function employeeQuestions() {
 
     {
         type: 'input',
-        name: 'employee',
+        name: 'empName',
         message: 'Please enter employee name.',
-        validate: employeeInput => {
-            if (employeeInput) {
+        validate: empName => {
+            if (empName) {
             return true;
         } else {
             console.log('Please enter a valid employee name');
@@ -81,7 +81,7 @@ async function employeeQuestions() {
     }
 
     let engineer
-	if (employee.employeeRole === 'Engineer') {
+	if (employee.role === 'Engineer') {
 		engineer = await inquirer.prompt([
 			{
 				type: 'input',
@@ -99,8 +99,8 @@ async function employeeQuestions() {
 				type: 'input',
 				name: 'github',
 				message: "Please enter a GitHub link",
-				validate: Github => {
-					if (Github) {
+				validate: engineerGithub => {
+					if (engineerGithub) {
 						return true;
 					} else {
 						console.log("Please enter a valid GitHub link")
@@ -117,7 +117,7 @@ async function employeeQuestions() {
 
 
 	let intern
-	if (employee.employeeRole === 'Intern') {
+	if (employee.role === 'Intern') {
 
 		intern = await inquirer.prompt([
 			{
@@ -134,10 +134,10 @@ async function employeeQuestions() {
 			},
 			{
 				type: 'input',
-				name: 'InternSchool',
+				name: 'intSchool',
 				message: "What school is the intern attending",
-				validate: internSchool=> {
-					if (internSchool) {
+				validate: intSchool=> {
+					if (intSchool) {
 						return true;
 					} else {
 						console.log("What school is the intern attending")
