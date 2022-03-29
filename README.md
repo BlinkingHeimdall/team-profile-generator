@@ -14,9 +14,12 @@ A short and simple permissive license with conditions only requiring preservatio
 This project takes in information about a software engineering team and generates an html page that displays summaries for each person.
 
 Link for demostration:
-https://drive.google.com/file/d/1WA90ELuAj6zwNw6ZiutC1B0Ok8K0EQMc/view
+https://drive.google.com/file/d/11OMam1lgeFTRpwJVytgi2LgvkFjkEG8I/view
 
-![image](https://user-images.githubusercontent.com/87791295/160523393-d42af602-1692-4d49-a650-12791c19d48d.png)
+![image](https://user-images.githubusercontent.com/87791295/160523960-0fd703eb-effa-4e39-abd4-9570a438df8f.png)
+
+
+
 
 
 
